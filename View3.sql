@@ -11,4 +11,4 @@ Reservasi R ON P.PelangganID = R.PelangganID
 JOIN 
 Pembayaran B ON R.ReservasiID = B.ReservasiID
 WHERE 
- B.MetodePembayaran = 'Transfer Bank';
+ B.MetodePembayaran = 'Transferï¿½Bank';
